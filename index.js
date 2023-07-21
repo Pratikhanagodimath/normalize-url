@@ -278,5 +278,6 @@ export default function normalizeUrl(urlString, options) {
 		urlString = urlString.replace(/^(?:https?:)?\/\//, '');
 	}
 
+	console.log('this is correct log');
 	return urlString;
 }
